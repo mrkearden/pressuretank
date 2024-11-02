@@ -1,0 +1,8 @@
+! ----- names for bodies -----
+$ head = 1
+$ shell = 2
+$ frames = 3
+! ----- names for boundaries -----
+$ xz = 1
+$ xy = 2
+$ nox = 3

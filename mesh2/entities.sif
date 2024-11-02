@@ -1,0 +1,38 @@
+!------ Skeleton for body section -----
+Body 1
+  Name = end
+End
+
+Body 2
+  Name = shell
+End
+
+Body 3
+  Name = frames
+End
+
+Body 4
+  Name = body4
+End
+
+!------ Skeleton for boundary section -----
+Boundary Condition 1
+  Name = load
+End
+
+Boundary Condition 2
+  Name = nox
+End
+
+Boundary Condition 3
+  Name = xz
+End
+
+Boundary Condition 4
+  Name = XY
+End
+
+Boundary Condition 5
+  Name = bnry8
+End
+

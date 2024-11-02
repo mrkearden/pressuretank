@@ -1,0 +1,11 @@
+! ----- names for bodies -----
+$ end = 1
+$ shell = 2
+$ frames = 3
+$ body4 = 4
+! ----- names for boundaries -----
+$ load = 1
+$ nox = 2
+$ xz = 3
+$ XY = 4
+$ bnry8 = 5
