@@ -1,0 +1,24 @@
+# phull
+PROBLEM modal 3D MODES 3
+READ_MESH vessel2.msh
+
+#BC noynodes v=0       # displacement vector is [u,v,w]
+#BC noznodes w=0       # u = displacement in x
+#BC node_no_x u=0       # v = displacement in y
+
+# LOADING: uniform normal pressure on the upper surface
+#BC load    p=100000   
+
+E = 200e9    # mesh is in meters, so E=210e3 MPa -> Pa
+nu = 0.285           # dimensionless
+alpha = 2.3e-4 
+rho = 7850     # in 1/ºC as in the problem
+SHELL ELEMENTS 1 1 thickness 0.0508
+SOLVE_PROBLEM
+PRINT f(1)
+PRINT f(2)
+PRINT f(3)
+# for post-processing in Paraview
+# WRITE_MESH phull.vtk VECTOR u v w sigmax sigmay sigmaz
+
+

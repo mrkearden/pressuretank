@@ -51,9 +51,9 @@ End
 
 Solver 1
   Equation = Linear elasticity
-!  Stability Analysis = True
-! Eigen System Values = 3
-!  Eigen Analysis = True
+  Stability Analysis = True
+Eigen System Values = 3
+ Eigen Analysis = True
   Procedure = "StressSolve" "StressSolver"
   Eigen System Select = Smallest magnitude
   Exec Solver = Always
@@ -67,7 +67,7 @@ Solver 1
   Nonlinear System Relaxation Factor = 1
   Linear System Solver = Direct
   Linear System Direct Method = MUMPS
-  Calculate Stresses = TRUE
+!  Calculate Stresses = TRUE
 End
 
 Equation 1
