@@ -1,0 +1,10 @@
+! ----- names for bodies -----
+$ Property = 1
+$ Property = 2
+$ Property = 3
+$ Property = 4
+! ----- names for boundaries -----
+$ Property = 1
+$ Property = 2
+$ load = 3
+$ Property = 4

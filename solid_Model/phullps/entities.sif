@@ -1,0 +1,34 @@
+!------ Skeleton for body section -----
+Body 1
+  Name = Property
+End
+
+Body 2
+  Name = Property
+End
+
+Body 3
+  Name = Property
+End
+
+Body 4
+  Name = Property
+End
+
+!------ Skeleton for boundary section -----
+Boundary Condition 1
+  Name = Property
+End
+
+Boundary Condition 2
+  Name = Property
+End
+
+Boundary Condition 3
+  Name = load
+End
+
+Boundary Condition 4
+  Name = Property
+End
+
